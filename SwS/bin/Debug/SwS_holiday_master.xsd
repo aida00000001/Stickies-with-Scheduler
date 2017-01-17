@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="SwS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="SwS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="holiday_master">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:long" minOccurs="0" />
+              <xs:element name="holiday_type" type="xs:long" minOccurs="0" />
+              <xs:element name="holiday_name" type="xs:string" minOccurs="0" />
+              <xs:element name="third" type="xs:long" minOccurs="0" />
+              <xs:element name="fourth" type="xs:long" minOccurs="0" />
+              <xs:element name="fifth" type="xs:long" minOccurs="0" />
+              <xs:element name="sixth" type="xs:long" minOccurs="0" />
+              <xs:element name="seventh" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
